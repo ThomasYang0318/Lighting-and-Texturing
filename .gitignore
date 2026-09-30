@@ -1,0 +1,62 @@
+# 編譯輸出
+*.o
+*.a
+*.so
+*.dylib
+*.dll
+*.exe
+
+# IDE 文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+
+# 構建目錄
+build/
+dist/
+bin/
+obj/
+
+# CMake
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+
+# Visual Studio
+.vs/
+*.vcxproj.user
+*.ncb
+*.aps
+Debug/
+Release/
+x64/
+
+# 調試文件
+*.pdb
+*.ilk
+
+# 臨時文件
+*.tmp
+*.bak
+*.log
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# 可執行文件（保留源代碼）
+CG_HW3
+
+# 依賴庫（只在本地保留，不提交到遠程）
+/Library/OpenGL/
+/Library/OpenCV/lib/
+
+# 大型二進制文件
+*.zip
+*.rar
+*.7z
