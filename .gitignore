@@ -50,7 +50,7 @@ __pycache__/
 *.egg-info/
 
 # 可執行文件（保留源代碼）
-CG_HW3
+/CG_HW3/CG_HW3
 
 # 依賴庫（只在本地保留，不提交到遠程）
 /Library/OpenGL/
